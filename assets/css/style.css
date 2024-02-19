@@ -17,7 +17,7 @@ body {
     background-repeat:repeat-y;
 }
 .portada {
-  width: 200px;
+  width: 400px;
 }
 .kalam-light {
     font-family: "Kalam", cursive;
@@ -70,10 +70,7 @@ box-shadow: 6px 8px 1px var(--azul);
     font-family: "Kalam", cursive;
     padding: 5px;
     }
-.info {
-      background-color: #3E3C73;
 
-    }
 section p {
   color: var(--dark);
 
