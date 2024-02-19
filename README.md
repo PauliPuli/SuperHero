@@ -8,11 +8,11 @@ que se entrega al iniciar sesión con una cuenta de Facebook. Recuerda leer la d
 disponible en la API y revisar el material llamado Apoyo Prueba - Encuentra tu SuperHero</p>
 <hr>
 <h2>Propuesta visual</h2>
-<p>Para poder incluir el título "SuperHero" al fondo de la página vectoricé uno cambiando la tipografía y los colores. Además, busqué en Freepik un fondo como el de los comic</p>
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/fondoSH.png'>
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/02_superhero.png'>
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero-artes_superhero.png'>
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero-artes_superhero.png'>
+<p>Para poder incluir el título "SuperHero" al fondo de la página vectoricé uno cambiando la tipografía (CoopBold de House Industries) y los colores. Además, busqué en Freepik un fondo como el de los comic</p>
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/fondoSH.png' width="50%" >
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/02_superhero.png' width="20%" >
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero-artes_superhero.png' width="20%" >
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero.png' width="20%" >
 <!-- <h3>Requerimientos</h3>
 <ol>
 <li>Crear la estructura básica para la página web implementando HTML, que incluya un formulario de búsqueda. Utilizar etiquetas semánticas de HTML5 para definir y separar las secciones. (1 Punto)</li>
