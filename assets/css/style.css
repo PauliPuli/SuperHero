@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --yellow: #F2B705;
+    --naranja1: #F29F05;
+    --naranja2: #F28627;
+    --naranja3: #F26E22;
+    --rojo: #d8242a;
+    --white: #ffff;
+    --dark:#262214;
+    --azul:#3E3C73;
+}
+body {
+    background-image: url(/assets/img/fondoSH-03-01.png);
+    background-repeat: no-repeat;
+}
+.portada {
+  width: 50%;
+}
+.kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Permanent Marker", cursive;
+  }
+  p{
+    font-family: "Kalam", cursive;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .buscar {
+background-color: var(--rojo);
+color: var(--white);
+font-family: "Permanent Marker", cursive;
+text-shadow: 2px 2px 5px var(--dark);
+font-size: 24px;
+border: 5px solid var(--white) ;
+padding: 10px 30px;
+
+box-shadow: 6px 8px 1px var(--azul);
+  }
+
+  .cuadro{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px var(--azul);
+    font-family: "Kalam", cursive;
+    padding: 5px;
+    }
+    #ficha{
+      background-color: #3E3C73;
+
+    }
+section p {
+  color: var(--dark);
+}
