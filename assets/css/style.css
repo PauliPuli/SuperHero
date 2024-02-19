@@ -14,10 +14,10 @@
 }
 body {
     background-image: url(/assets/img/fondoSH-03-01.png);
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
 }
 .portada {
-  width: 50%;
+  width: 200px;
 }
 .kalam-light {
     font-family: "Kalam", cursive;
@@ -45,7 +45,7 @@ body {
   h1 {
     font-family: "Permanent Marker", cursive;
   }
-  p{
+.intro {
     font-family: "Kalam", cursive;
     color: var(--white);
     font-weight: 700;
@@ -70,10 +70,18 @@ box-shadow: 6px 8px 1px var(--azul);
     font-family: "Kalam", cursive;
     padding: 5px;
     }
-    #ficha{
+.info {
       background-color: #3E3C73;
 
     }
 section p {
   color: var(--dark);
+
+}
+.nombre {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2px 2px 2px var(--azul);
+}
+.card-title {
+  box-shadow: 3px 3px 1px var(--azul);
 }

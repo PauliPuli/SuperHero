@@ -85,7 +85,7 @@
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 mb-4 text-center">
             <!-- <p>Ingrese un número</p> -->
 
-            <p class="text-center">
+            <p class="text-center intro">
               Ingrese un número y descubra al Superhéroe
             </p>
             <input
@@ -93,7 +93,7 @@
               id="numerohero"
               placeholder="Ingrese un número"
             />
-            <p class="text-center my-4 fw-light error"></p>
+            <p class="text-center my-4 text-light error"></p>
           </div>
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4 text-center">
             <button class="buscar" id="btn-sh" type="submit">
@@ -103,31 +103,38 @@
         </div>
       </form>
     </main>
-    <section class="mt-5 px-auto p-5" id="ficha">
-
-      <div class="card text-bg-warning mb-3">
-        <div class="row px-auto g-0">
-          <div class="col-md-3">
-            <img src="https://www.superherodb.com/pictures2/portraits/10/100/1289.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-7">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="col-sm-8">
-                <div class="card mx-auto">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                  </ul>
-                </div>
+    <section class="p-4">
+      <!-- Héroe -->
+      <div class="row row-cols-1 row-cols-md-2 g-4 px-auto" id="ficha">
+        <!-- <div class="card p-0">
+          <div class="row g-0">
+            <div class="col-sm-12 col-md-4">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1289.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title bg-info text-bg-dark p-2">Nombre:<span class="nombre"></span></h5>
+                <p class="card-text">Conexiones: This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Publicado por:</small></p>
+                <ul class="list-group list-group-flush ps-0">
+                  <li class="list-group-item ps-0 fs-italic"><span class="fst-italic fw-medium">Ocupación:</span></li>
+                  <li class="list-group-item ps-0"><span class="fst-italic fw-medium">Primera aparición:</span> </li>
+                  <li class="list-group-item ps-0"><span class="fst-italic fw-medium">Altura:</span></li>
+                  <li class="list-group-item ps-0"><span class="fst-italic fw-medium">Peso:</span></li>
+                  <li class="list-group-item ps-0"><span class="fst-italic fw-medium">Alianzas:</span></li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+        <div id="chartContainer">
+        <!-- <div class="col">
+          <div class="card" >
+            <div class="card-body">
+               </div>
+          </div>
+        </div> -->
       </div>
-      <!-- Héroe -->
     </section>
 
     <script
@@ -135,6 +142,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
