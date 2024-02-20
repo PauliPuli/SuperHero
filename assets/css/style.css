@@ -13,7 +13,7 @@
     --azul:#3E3C73;
 }
 body {
-    background-image: url(./assets/img/fondoSH-03-01.png);
+    background-image: url(../img/fondoSH-03-01.png);
     background-repeat:repeat-y;
 }
 .portada {
