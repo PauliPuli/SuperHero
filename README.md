@@ -8,11 +8,20 @@ que se entrega al iniciar sesión con una cuenta de Facebook. Recuerda leer la d
 disponible en la API y revisar el material llamado Apoyo Prueba - Encuentra tu SuperHero</p>
 <hr>
 <h2>Propuesta visual</h2>
-<p>Para poder incluir el título "SuperHero" al fondo de la página vectoricé uno cambiando la tipografía (CoopBold de House Industries) y los colores. Además, busqué en Freepik un fondo como el de los comic</p>
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/fondoSH.png' width="50%" >
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/02_superhero.png' width="20%" >
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero-artes_superhero.png' width="20%" >
-<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero.png' width="20%" >
+<p>Para poder incluir el título "SuperHero" al fondo de la página vectoricé uno cambiando la tipografía (<a href='https://housefonts.com/hi/typography_of_coop#'>CoopBold</a> de House Industries) y los colores. Además, busqué un fondo como el de los comic</p>
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/fondoSH.png' width="50%" display='inline' >
+<figcaption>Contenido disponible en <a href='https://www.freepik.es/vector-gratis/zoom-comico-amarillo-abstracto_6481665.htm#query=comic&position=14&from_view=search&track=sph&uuid=84f7b817-cb8c-474a-8d3a-9ccb422f1289'>Freepik</a></figcaption>
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/02_superhero.png' width="50%" display='inline'>
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero-artes_superhero.png' width="50%" display='inline'>
+<img src='https://github.com/PauliPuli/SuperHero/blob/6b101eccb946a5e8eff9f1746e6a870110a0d1b9/assets/img/superhero.png' width="50%" display='inline'>
+
+<hr>
+<h4>Observaciones:</h4>
+<ul>
+<li>No logré eliminar el mensaje de "Caracteres aceptados" y cada que coloco otro número se repite el mensaje</li>
+<li>El gráfico desaparece cuando se visualiza en formatos pequeños</li>
+</ul>
+<p>(*)Queda aún por iterar para afinar el funcionamiento adecuado del sitio</p>
 <!-- <h3>Requerimientos</h3>
 <ol>
 <li>Crear la estructura básica para la página web implementando HTML, que incluya un formulario de búsqueda. Utilizar etiquetas semánticas de HTML5 para definir y separar las secciones. (1 Punto)</li>
